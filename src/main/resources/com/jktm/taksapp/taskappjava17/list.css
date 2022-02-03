@@ -1,0 +1,14 @@
+.list-cell {
+    -fx-font-size: 20.0px;
+    -fx-text-fill: black;
+}
+.list-cell:even {
+    -fx-background-color: white;
+}
+.list-cell:filled:hover {
+    -fx-background-color: #4287f5;
+    -fx-text-fill: white;
+}
+.list-cell:focused {
+    -fx-background-color: white;
+}
