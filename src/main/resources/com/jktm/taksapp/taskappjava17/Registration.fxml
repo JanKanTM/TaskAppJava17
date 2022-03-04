@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.jktm.taksapp.taskappjava17.Registration">
+   <children>
+      <TextField fx:id="txtUsernameOrEmail" alignment="CENTER" layoutX="200.0" layoutY="230.0" minHeight="30.0" promptText=" Username or Email" style="-fx-background-color: transparent; -fx-border-color: #4287f5; -fx-border-width: 0px 0px 2px 0px;" AnchorPane.leftAnchor="200.0" AnchorPane.rightAnchor="200.0" AnchorPane.topAnchor="230.0" />
+      <PasswordField fx:id="txtPasswordAgain" alignment="CENTER" layoutX="200.0" layoutY="368.0" minHeight="30.0" promptText="Enter your Password again" style="-fx-background-color: transparent; -fx-border-color: #4287f5; -fx-border-width: 0px 0px 2px 0px;" AnchorPane.leftAnchor="200.0" AnchorPane.rightAnchor="200.0" AnchorPane.topAnchor="368.0" />
+      <PasswordField fx:id="txtPassword" alignment="CENTER" layoutX="200.0" layoutY="300.0" minHeight="30.0" promptText="Password" style="-fx-background-color: transparent; -fx-border-color: #4287f5; -fx-border-width: 0px 0px 2px 0px;" AnchorPane.leftAnchor="200.0" AnchorPane.rightAnchor="200.0" AnchorPane.topAnchor="300.0" />
+      <Label layoutX="278.0" layoutY="84.0" text="Tasks App">
+         <font>
+            <Font name="Calibri Bold" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="171.0" layoutY="84.0" text="OASYS" textFill="#4287f5">
+         <font>
+            <Font name="Calibri Bold" size="36.0" />
+         </font>
+      </Label>
+      <Button layoutX="274.0" layoutY="491.0" mnemonicParsing="false" onMouseClicked="#btnRegDone" text="Done" AnchorPane.bottomAnchor="80.0" AnchorPane.leftAnchor="270.0" AnchorPane.rightAnchor="270.0" AnchorPane.topAnchor="490.0" />
+   </children>
+</AnchorPane>
